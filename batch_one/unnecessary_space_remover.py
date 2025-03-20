@@ -4,7 +4,6 @@ Example:
 Input:         Juan Dela Cruz
 Output: Juan Dela Cruz
 """
-
 user_input = input("Please enter your full name: ").strip()
 
 print(user_input)
