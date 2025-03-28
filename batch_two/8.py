@@ -5,6 +5,11 @@
 
 user_inp = input("Enter a word or sentence: ")
 
+swapped_case = ""
 for i in user_inp:
     if i.islower():
-        
+        swapped_case += i.upper()
+    else:
+        swapped_case += i.lower()
+
+print(swapped_case)
