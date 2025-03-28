@@ -4,3 +4,8 @@
 #idk man
 
 user_inp = input("Please enter a word or a sentence: ")
+width = 50
+spaces = (width - len(user_inp)) //2
+centered = f'{' ' * spaces}{user_inp}{' ' * spaces}'
+
+print(centered)
